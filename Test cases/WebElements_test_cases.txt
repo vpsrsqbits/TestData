@@ -1,0 +1,223 @@
+			Test Cases for Different Web Elements
+................................................................................
+
+
+Test Cases for Radio Button:
+-------------------------------------------------
+
+A radio button is a graphical element enabling users to choose only one of the pre-defined sets of options. 
+
+The following are the test cases for the radio button-
+--------------------------------------------------------
+
+1. Verify whether the radio button is clearly visible and in proportion with the user interface. 
+2. Check whether its size is according to the one mentioned in the requirements. 
+3. Check whether the radio button allows users to select only one option at a time from a specific radio group. 
+4. Verify whether the description or label text of the radio button is proper and next to it. 
+5. Click on the label text and check whether the corresponding option of the radio button gets selected. 
+6. Verify the font size and color of the radio button’s description. 
+7. Consider a user selecting a specific option of the radio button and refreshing the page. Check whether that option remains selected or not. 
+8. Check whether users can access the radio button and select the option using the tab and arrow keys. 
+9. Verify whether the selected option is highlighted differently. 
+10. Check that radio buttons in a group do not collide with each other. 
+11. Test radio buttons on different browsers and platforms to ensure correct behavior and functioning. 
+12. Check whether the appropriate error message is displayed when no option for the radio button is selected. 
+13. Verify that only the value of the selected option is captured and processed further.
+
+
+Test Cases for Checkbox:
+--------------------------------------------------------- 
+A checkbox is a graphical element allowing users to make multiple choices from the given set of mutually exclusive options. 
+
+
+The following are the test cases for the checkbox-
+----------------------------------------------------------
+
+1. Verify the position of the check box on the user interface. 
+2. Check if the checkbox’s height and width are according to the ones mentioned in the requirement. 
+3. Check whether the options of the checkbox are selectable or not. 
+4. Verify whether users can select multiple options from the checkbox. 
+5. Verify whether users can uncheck the checked option. 
+6. Check if there is a default selection state when a user loads the page.
+7. Confirm whether the default select is visible or not. 
+8. Verify that the selection of multiple options remains even if users interact with other elements on the web. 
+9. Ensure the presence of the label text with the check box. 
+10. Verify the color of the tick mark when users select options. 
+11. Check whether the checkbox is accessed and selected using the keyboard keys. 
+12. Confirm that the selected options are highlighted in a different way. 
+13. Verify the behavior of the checkbox in different browsers and platforms. 
+14. Check the responsiveness of the checkbox on different screen sizes. 
+15. Determine the behavior of the checkbox when no option is selected. Check whether the proper error message is displayed. 
+16. Verify that the values of the checkboxes save in the database upon clicking the submit button. 
+
+
+Test Cases for Dropdown:
+------------------------------------------------------ 
+A dropdown list is a visual element analogous to a list box allowing users to select a value from a given list. It is also referred to as a dropdown menu, pull-down list, or picklist. 
+
+
+Check out some basic test cases for the dropdown list: 
+-----------------------------------------------------------
+
+1. Check whether the dropdown list is clickable. 
+2. Verify whether the list shows up and collapses after clicking the dropdown menu. 
+3. Check if all the options in a list are displayed. 
+4. Verify the working of the scroll-down functionality. 
+5. Confirm the design of the dropdown list aligns with the one specified in the requirements. Check whether it goes well with other elements. 
+6. Check whether each option in a list is clickable. 
+7. Confirm the order of the values in the dropdown list matches as specified in the requirements. 
+8. Check for no blank value in the dropdown list. 
+9. The design and behavior of the dropdown list should be consistent in all browsers and platforms. 
+10. Check if users can access the dropdown and navigate the list through the keyboard keys. 
+11. Validate that the dropdown list has clear labels indicating the available options. 
+12. Confirm the spellings for values in the dropdown list. 
+13. Verify that all the values in the list are in the order specified in the requirements. 
+14. Check for equal spaces between the list values. 
+15. Confirm that the selected option is highlighted or indicated differently. 
+16. Test the working and behavior of the dropdown on different browsers and platforms. 
+17. Validate the behavior when no option from the list is selected. 
+18. Test the interaction of the dropdown with other elements. 
+
+
+Test Cases for Text Box 
+--------------------------------------
+ 
+Also called a text field, a text box is a graphical element allowing users to input text information. It has a rectangular shape and is of any size.  
+
+Let us explore different test cases for the text box. However, different types of text fields are categorized based on the input. Hence, the test cases vary accordingly. 
+
+
+Test Cases for Single-Line Text Box
+------------------------------------------
+
+1. Check whether the text box accepts the alphabet, numeric values, and symbols. 
+2. Validate the text box for its limitation on the input length. 
+3. Verify whether it accepts the empty input and does not throw any error. 
+4. Test if the text box can handle leading and trailing spaces correctly.
+5. Check the functionality of pasting the copied input into the text box.
+6. Test if the auto-capitalization for the first letter works correctly. 
+7. Check if users can access the text box using the keyboard’s Tab key. 
+8. Verify whether the text box works as intended on all browsers and platforms.
+
+
+Test Cases for Multi-line Text Box
+----------------------------------------------
+
+1. Confirm that the text box supports a combination of the alphabet, numeric values, and symbols as input.
+2. Test the maximum length for the input. Also, check whether the text box displays the number of words as users type in the input. 
+3. Validate the text box for its functionality of line break or a new line. 
+4. Check whether the text box handles leading and trial spaces correctly.
+5. Test the behavior of the text box when users copy the input and paste it into the field. 
+6. If there is a need for a large amount of text, ensure that the text box automatically re-sizes or grows as users enter input. 
+7. Check whether the scrolling function works in the above case to make it possible for users to view the entered text.
+8. Confirm that the text box can be accessed through the keyboard’s Tab key. 
+9. Ensure the text box works perfectly well on different platforms and browsers.
+
+
+Test Cases for Numeric Text Box
+----------------------------------------------
+
+1. Check whether the text box supports only numeric values and scientific annotations (if stated in the requirements). 
+2. Test to check it does not accept alphabets and special symbols. 
+3. Check whether the text box displays the appropriate error message when users enter input of the length beyond its maximum limit.
+4. If the text box accepts negative values, check its behavior after entering negative numbers. 
+5. Check whether it supports a decimal point (.). 
+6. Verify the accessibility of the text box through the keyboard. 
+7. If the text box is used as a counter to increase and decrease the value, check if the buttons for increasing and decreasing work find and can be accessed through the keyboard. 
+8. Validate the text box for the input to fit in the specific range of numbers.
+
+
+Test Cases for Password Text Box
+------------------------------------------------
+
+1. Check whether the text box enforces the minimum and maximum password length limitation by entering a random password. 
+2. Test the functionality of the text box for the visibility (show/hide) of the password.
+3. Check if the text box accepts a combination of special symbols, alphabet, and numeric values. 
+4. Test the text box to verify it distinguishes uppercase and lowercase characters and considers their different characters. 
+5. Check whether the text box supports the paste functionality. 
+6. Confirm the accuracy of the password strength indicator (weak, medium, and strong) by entering random passwords.
+
+
+Common test cases for the text box are as follows: 
+---------------------------------------------------
+
+1. Validate whether the default text is displaying in the field or not. 
+2. Check whether users can type or enter their input when clicking on the text box. 
+3. The height and length of the text box should be the same as mentioned in the requirements. 
+4. Check whether the text box accepts the wrong input and displays the error message to users. 
+5. Test whether users can copy and paste the text in the text field. 
+6. Verify whether the copied text is displayed properly in the text field. 
+7. Check whether users can clear the entered text. 
+8. Verify whether the placeholder text disappears when users enter their text and appears as soon as they clear it. 
+9. Check the behavior if the user enters the wrong or invalid input type. 
+10. Verify whether the text box accepts the suggestions displayed on the screen when users enter their input. 
+11. Confirm that the text box has the appropriate label. 
+12. Check whether the text box works perfectly fine in different browsers. 
+13. Verify its responsiveness on different screen sizes. 
+14. Test whether the text box holds the input entered by a user even after the page reloading or refreshing. 
+15. Validate the text box for its functionality of allowing users to change the entered text.
+
+
+Test Cases for Button:
+--------------------------------
+A button is a graphical user interface element, which is very common. It is a clickable element allowing users to trigger an action or perform a specific function. 
+
+Here are the test cases for a button: 
+
+1. The position and design of the button should align with the guidelines stated in the requirements specification. 
+2. The color of the button should be the same as specified in the requirements. 
+3. Verify the icon on the button if it is specified in the design specifications. For example, the upload or download icons. 
+4. Check the height and width of the button. 
+5. Confirm the button text is related to the functionality the button is expected to perform after users click it. 
+6. Verify whether the button is clickable or not. 
+7. Validate the behavior of the button when it is clicked. 
+8. Upon hovering the button, verify whether the cursor is changed to the hand icon. 
+9. Upon hovering the button, check whether the color of the button changes.
+10. Confirm that the button state is visually indicated to users. 
+11. Verify the accessibility of the button through the keyboard keys. 
+12. Check that the whole button is clickable and not only the text.
+
+
+Test Cases for Header:
+---------------------------------
+
+ A header is the topmost section appearing on every web page of a website. It consists of different elements, typically a brand logo, navigation menu, and title. 
+
+ Below are some common test cases for a header: 
+
+1. Verify that the header is added to a website. 
+2. Check the header’s alignment. 
+3. Confirm the alignment of icons with text added to the header. 
+4. Each icon on a header should be related to its corresponding link text. 
+5. The link test should be visible and readable. 
+6. Verify whether the entire website (all web pages) has the same header. 
+7. Check whether the header is fixed or sticky on all pages as specified in the requirements. 
+8. Verify the clickability of all links included in the header. 
+9. Users should be redirected to the home page when they click on the logo present in the header. 
+10. Check whether the link color in the header changes when users hover over it.
+11. Verify the availability of the search bar in the header. 
+12. The header should be distinguished from the body section. 
+13. The font size and style should be consistent with the website’s design.  
+14. Verify that all the dropdown options in the headers display the list of options when users hover over or click them.
+15. The header should be visually appealing and accessible on devices of different screen sizes.
+
+
+	Test Cases for Footer 
+-------------------------------------	
+
+	A footer is the bottom section appearing on every web page of a website. It consists of various elements, such as privacy policies, contact, terms of use, social media links, etc. 
+
+	The following are the typical test cases for a footer: 
+--------------------------------------------------------------
+
+1. Ensure each web page of a website has a footer at the bottom. 
+2. Validate whether the footer has the color scheme, font size, and font style. 
+3. Verify every essential element is aligned and positioned correctly in the footer section. 
+4. Check whether the links to different elements in the footer are clickable.
+5. Ensure to have the brand logo in the footer section. 
+6. The click on the logo should redirect users to the homepage. 
+7. Check whether the footer has appropriate social media icons with links redirecting users to the corresponding platforms when they click them. 
+8. Verify there is no broken link in the footer. 
+9. Check whether all elements have equal space between them. 
+10. Test the email field when users try to subscribe to the newsletter  (if included). 
+11. Check the functionality of the Subscribe button.

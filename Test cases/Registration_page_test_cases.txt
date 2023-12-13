@@ -1,0 +1,33 @@
+	Test Cases for SignUp Page
+------------------------------------------------
+
+
+1. Verify that all the required fields – username, email, password, confirm password, etc are present on the registration page.
+
+2. Verify that on passing valid values, a user should get registered and the same should be allowed to login to the application.
+
+3. Verify that if a user tries to register an existing username then an error message should get displayed.
+
+4. Verify that the required/mandatory fields are marked with the ‘*’ symbol.
+
+5. Verify that for a better user interface – dropdowns, radio buttons, checkboxes, etc fields are displayed wherever possible instead of just text boxes.
+
+6. Verify the page has both submit and cancel/reset buttons at the end.
+
+7. Verify that clicking submits button after entering all the required fields, submits the data to the server.
+
+8. Verify that clicking the cancel/reset button after entering all the required fields, cancels the submit request, and reset all the fields.
+
+9. Verify that if no value is passed to the mandatory fields and submit button is clicked then it leads to a validation error.
+
+10. Verify that the user can leave the optional fields blank and on clicking the submit button no validation error appears.
+
+11. Verify that whenever possible validation should take place on the client side. For example, if a user presses submit button without entering a username, and password then this validation should take place on the client side instead of sending blank entries to the server.
+
+12. Check the upper limit of the different textbox fields.
+
+13. Verify validation on the date and email fields. Only valid dates and valid email Ids should be allowed.
+
+14. Check validation on numeric fields by entering alphabets and special characters.
+
+15. Check that leading and trailing spaces are trimmed i.e. in case, the user appends space before and after a field, then the same should get trimmed before getting stored on the server.
